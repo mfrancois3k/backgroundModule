@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>background size</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        
+        div {
+            width: 500px;
+            height: 400px;
+            border: 5px solid  #000;
+            padding: 20px;
+/*
+            
+            background-image: url(http://picsum.photos/600/400), url(http://picsum.photos/600/400), url(http://picsum.photos/600/400);
+            background-repeat: no-repeat;
+            background-position: top left bottom right;
+            background-size: 10% 10% 40% 40% 100% 100%;   
+            the
+*/
+        background: url(http://picsum.photos/150/150) no-repeat bottom right / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat top right / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat top left / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat bottom left / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat  center / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat  right / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat  bottom / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat  top / 30% 30%,
+        url(http://picsum.photos/150/150) no-repeat left / 30% 30%;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding-box;
+        background-clip: content-box;
+        }
+        
+     /*      background: url(http://picsum.photos/600/400);
+        /* image */
+         /* postion / size */
+         /* attachment */
+         /* clip */
+          /* color */
+        top center / 200px 200px
+        no-repeat
+        fixed
+        padding-box
+        content-box
+        red;
+    */
+    </style>
+</head>
+<body>
+   <div class=""></div>
+    
+</body>
+</html>
